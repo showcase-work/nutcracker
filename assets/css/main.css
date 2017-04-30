@@ -524,6 +524,10 @@ footer .right-content{
         width: 100%;
         min-width: initial;
     }
+
+    .services .service-block{
+        width:50%;
+    }
 }
 
 /* Extra Small Devices, Phones */ 
@@ -551,6 +555,10 @@ footer .right-content{
 @media only screen and (max-width : 320px) {
     .slider-image{
         height:220px;
+    }
+
+    .services .service-block{
+        width:100%;
     }
 }
 
