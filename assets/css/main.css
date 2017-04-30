@@ -376,8 +376,8 @@ button:focus {
 
 /*-------------Contact-------------*/
 .container.contact{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
     text-align: left;
 }
 
@@ -399,7 +399,7 @@ button:focus {
 }
 
 .container.contact .main-content input, .container.contact .main-content textarea{
-    width:40%;
+    width:60%;
     background-color: transparent;
     padding:10px;
     border:none;
@@ -434,7 +434,7 @@ button:focus {
 footer{
     background-color: #D38322;
     color:white;
-    padding:7px 20px;
+    padding:7px 25px;
     text-align: left;
 }
 
