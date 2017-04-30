@@ -1,0 +1,568 @@
+/*
+box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.4);
+orange color: #D38322;
+*/
+
+
+@font-face {
+    font-family: Dosis;
+    src: url(Dosis-Bold.ttf);
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url(CenturyGothic.ttf);
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url(gothicb.ttf);
+    font-weight: bold;
+}
+
+body, html{
+    overflow-x: hidden !important
+    width:100% !important;
+}
+
+body{
+    position:relative;
+    font-family: GothamBook;
+    color:black;
+}
+
+h1, h2, h3, h4, h5, h6, html{
+    font-family: GothamBook;
+    color:black;
+    margin:0px;
+    padding:0px;
+}
+
+ul{
+    padding:0px;
+    margin:0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.uk-dotnav{
+    margin-bottom: 15px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.clearfix{
+    clear:both;
+}
+
+/*-------general--------*/
+
+.relative{
+    position:relative;
+}
+
+.orange{
+    color: #D38322;
+}
+
+
+.calculateHeight{
+    height:calc(100vh - 140px) !important;
+}
+
+.container{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container .main-content{
+    padding-top: 30px;
+}
+
+
+.container h1{
+    font-size: 28px;
+    width:100%;
+    display: inline-block;
+    border-bottom: 1px solid #D38322;
+    word-spacing: 0.1em;
+}
+
+.pad-left-right{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.custom-button{
+    padding:5px 20px;
+    border-radius: 15px;
+    background-color: transparent;
+    color:inherit;
+    border:2px solid white;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+/*-----------*/
+
+/*------welcome banner------*/
+
+.welcome-quotes{
+    height:70px;
+    width:100%;
+    text-align: right;
+    padding: 25px 10px;
+    font-size: 13px;
+}
+
+/*----*/
+
+/*---------navbar---------*/
+.logo{
+    background-color: white;
+    padding:2px;
+    padding-bottom: 40px;
+    width:120px;
+    height:120px;
+    position:absolute;
+    left:40px;
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.4);
+}
+
+.logo img{
+    width:100%;
+}
+
+.uk-navbar-nav>li>a{
+    height:initial;
+    line-height: initial;
+    font-family: GothamBook;
+    color:black;
+    padding:25px 15px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.uk-navbar-brand, .uk-navbar-content, .uk-navbar-toggle{
+    height:initial;
+}
+
+.uk-slideshow{
+    z-index: -1;
+}
+
+.uk-navbar-nav>li button{
+    border-radius: 100%;
+    padding:10px;
+    border:none;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    color:white;
+    font-size: 16px;
+    background-color: #D38322;
+}
+
+.uk-navbar{
+    background-color: white;
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.4);
+}
+.navbar-offcanvas-toggler{
+    padding: 25px 15px;
+    float:right;
+    margin-right: 18px;
+}
+
+/*-----*/
+
+/*-----------services-----------*/
+.services .service-block{
+    display: inline-block;
+    vertical-align: top;
+    width:33.33%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+
+.services .service-block .service-block-inside .image{
+    width:130px;
+    height:130px;
+    border-radius: 100%;
+    border: 2px solid black;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.services .service-block .service-block-inside .title{
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+/*----------------projects-----------*/
+
+.projects{
+    background-color: black;
+    color:white;
+}
+
+.projects .heading-block h1{
+    color:white;
+    border-color: white;
+    border-width: 3px;
+    padding-bottom: 30px;
+    font-size: 34px;
+}
+
+.projects .heading-block .circle{
+    width:32px;
+    height:32px;
+    border:3px solid white;
+    border-radius: 100%;
+    position:absolute;
+    left:0px;
+    right:0px;
+    margin:auto;
+    top:58px;
+    background-color: black;
+}
+
+/*-----*/
+
+/*------------------Gallery----------------*/
+
+.slider-image{
+    height:280px;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+/*------------------clients----------------*/
+.clients.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.clients .left-block{
+    display: inline-block;
+    width:50%;
+    vertical-align: top;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-right: 1px solid #D38322;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.clients .right-block{
+    display: inline-block;
+    width:50%;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.clients .right-block ul li{
+    display: inline-block;
+    width:33.33%;
+    vertical-align: top;
+    padding:20px;
+}
+
+.clients .left-block h2{
+    font-weight: bolder;
+    font-size: 52px;
+    display: inline-block;
+    margin-bottom:0px;
+}
+
+.clients .left-block h2 span{
+    padding:5px;
+    display: inline-block;
+    line-height: 1em;
+    vertical-align: top;
+}
+
+.clients .left-block h2 .group-text{
+    display: block;
+}
+
+.clients .left-block h2 .sec3{
+    margin-top: -5px;
+    margin-left: 74px;
+    margin-right: -7px;
+    font-size: 44px;
+}
+
+.clients .left-block .flex-wrap{
+
+}
+
+.clients .left-block .contents{
+    display: inline-block;
+    position: relative;
+}
+
+.clients .left-block h2 .sec4{
+    font-size: 100px;
+    display: inline-block;
+    line-height: 0.7em;
+}
+
+.clients .left-block p{
+    display: inline-block;
+    margin:0px;
+    font-weight: bolder;
+    position: absolute;
+    left:0px;
+    bottom:0px;
+}
+
+/*---------*/
+
+/*--------------Team------------*/
+.container.team {
+    background-color: #898989;
+}
+.container.team h1{
+    color:#FFFFFF;
+    border-color: #FFFFFF
+}
+
+.team .main-content{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.team .team-card-outer{
+    width: 33.33%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.team .team-card-outer .card-header{
+    height: 180px;
+    background-size: cover;
+    background-position: center center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.team .team-card-inner{
+    border-radius: 8px;
+    background-color: white;
+}
+
+.team .main-content .inner-div{
+    display: flex;
+}
+
+/*--------*/
+
+/*-------------Contact-------------*/
+.container.contact{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.container.contact .heading-block h1{
+    display: inline-block;
+    vertical-align: top;
+    border:none;
+    width: initial;
+    margin-right: 14px;
+    font-weight: bolder;
+    font-size: 38px;
+}
+
+.container.contact .heading-block img{
+    display: inline-block;
+    vertical-align: top;
+    max-width: 25px;
+    margin-top: 4px;
+}
+
+.container.contact .main-content input, .container.contact .main-content textarea{
+    width:40%;
+    background-color: transparent;
+    padding:10px;
+    border:none;
+    display: block;
+    border-bottom:1px solid #BCBCBC;
+    font-size: 21px;
+    padding-left: 0px;
+    margin-bottom: 7px;
+    min-width: 599px;
+}
+
+.container.contact .main-content input::-webkit-input-placeholder, .container.contact .main-content textarea::-webkit-input-placeholder{
+    color:#BCBCBC;
+}
+
+.container.contact .main-content button{
+    font-size: 23px;
+    padding:5px 20px;
+    background-color: transparent;
+    color:#BCBCBC;
+    border-radius: 19px;
+    border:1px solid #BCBCBC;
+    margin-top: 7px;
+    cursor: pointer;
+    margin-bottom: 7px;
+
+}
+
+
+/*-------*/
+/*-----------footer---------------*/
+footer{
+    background-color: #D38322;
+    color:white;
+    padding:7px 20px;
+    text-align: left;
+}
+
+footer .left-content{
+    display: inline-block;
+}
+
+footer .right-content{
+    display: inline-block;
+}
+
+footer .right-content ul li{
+    display: inline-block;
+    padding:13px;
+    font-size: 15px;
+}
+
+footer .left-content img{
+    width:50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+footer .left-content h2{
+    display: inline-block;
+    vertical-align: middle;
+    color:white;
+}
+
+footer .left-content h2 b{
+    font-family: Dosis;
+}
+
+footer .right-content{
+    float:right;
+    display: inline-block;
+}
+/*-----*/
+/*------screen optimizations--------*/
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .slider-image{
+        height:240px;
+    }
+    .clients .right-block ul li{
+        width:40%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .slider-image{
+        height:400px;
+    }
+    .clients.container{
+        display: block;
+    }
+    .clients .left-block{
+        width:100%;
+        display: block;
+        border-right: none;
+        padding-top: 0px;
+    }
+    .clients .right-block{
+        width:100%;
+    }
+    .clients .right-block ul li{
+        width:33.33%;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 600px) {
+    .team .main-content .inner-div{
+        display: block;
+        width:100%;
+    }
+
+    .team .team-card-outer{
+        width:100%;
+        margin-bottom: 20px;
+    }
+
+    .container.contact .main-content input, .container.contact .main-content textarea{
+        width: 100%;
+        min-width: initial;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    .slider-image{
+        height:300px;
+    }
+
+    .clients .right-block ul li{
+        width:50%;
+    }
+
+    footer .right-content{
+        width:100%;
+        text-align: center;
+    }
+
+    footer .left-content{
+        width:100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+    .slider-image{
+        height:220px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*---------*/
+
+
